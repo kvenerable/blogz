@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/blog?id={{blog_post.id}}">
+    <h2>{{blog_post.title}}</h2>
+    <p>{{blog_post.body}}</p>
+</form>
+{% endblock %}
